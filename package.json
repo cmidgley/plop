@@ -1,6 +1,6 @@
 {
   "name": "@cmidgley/plop",
-  "version": "3.0.5",
+  "version": "3.0.6",
   "description": "Micro-generator framework that makes it easy for an entire team to create files with a level of uniformity",
   "main": "./src/plop.js",
   "type": "module",
