@@ -1,12 +1,12 @@
 {
-  "name": "plop",
+  "name": "@cmidgley/plop",
   "version": "3.0.5",
   "description": "Micro-generator framework that makes it easy for an entire team to create files with a level of uniformity",
   "main": "./src/plop.js",
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/plopjs/plop.git"
+    "url": "https://github.com/cmidgley/plop.git"
   },
   "keywords": [
     "generator",
@@ -52,7 +52,7 @@
     "interpret": "^2.2.0",
     "liftoff": "^4.0.0",
     "minimist": "^1.2.5",
-    "node-plop": "cmidgley/node-plop",
+    "node-plop": "@cmidgley/node-plop",
     "ora": "^6.0.1",
     "v8flags": "^4.0.0"
   },
@@ -65,5 +65,8 @@
   },
   "lint-staged": {
     "*.js": "eslint --cache --fix"
+  },
+  "publishConfig": {
+    
   }
 }
