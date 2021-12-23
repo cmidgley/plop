@@ -1,6 +1,6 @@
 {
 	"name": "@cmidgley/plop",
-	"version": "3.0.9",
+	"version": "3.0.10",
 	"description": "Micro-generator framework that makes it easy for an entire team to create files with a level of uniformity",
 	"main": "./src/plop.js",
 	"type": "module",
@@ -27,14 +27,12 @@
 		"test": "npm run test:instrument && npm run jest && nyc report",
 		"test:instrument": "nyc instrument ./bin ./instrumented/bin && nyc instrument ./src ./instrumented/src && cp package.json ./instrumented",
 		"jest": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
-		"format": "eslint --fix ./",
-		"prepare": "husky install"
+		"format": "eslint --fix ./"
 	},
 	"devDependencies": {
 		"eslint": "^8.3.0",
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-plugin-prettier": "^4.0.0",
-		"husky": "^7.0.4",
 		"inquirer-directory": "^2.2.0",
 		"jest": "^27.3.1",
 		"jest-snapshot-serializer-ansi": "^1.0.0",

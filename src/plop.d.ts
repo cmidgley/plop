@@ -11,7 +11,7 @@ export {
     PlopCfg,
     PlopGenerator,
     NodePlopAPI
-} from 'node-plop';
+} from '@cmidgley/node-plop';
 
 export const Plop: Liftoff;
 export const run: (env: Liftoff.LiftoffEnv, _: any, passArgsBeforeDashes: boolean) => Promise<void>;
