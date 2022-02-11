@@ -50,7 +50,7 @@
 		"interpret": "^2.2.0",
 		"liftoff": "^4.0.0",
 		"minimist": "^1.2.5",
-		"@cmidgley/node-plop": "^0.30.1",
+		"@cmidgley/node-plop": "https://github.com/cmidgley/node-plop",
 		"ora": "^6.0.1",
 		"v8flags": "^4.0.0"
 	},
